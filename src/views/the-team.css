@@ -1,0 +1,91 @@
+.the-team-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-900);
+}
+.the-team-container1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+}
+.the-team-main {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 0;
+  position: relative;
+  max-width: 1320px;
+  margin-top: var(--dl-space-space-fourunits);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.the-team-container2 {
+  width: 1118px;
+  height: 627px;
+  display: flex;
+  z-index: 2;
+  position: relative;
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: var(--dl-space-space-tripleunit);
+  margin-right: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.the-team-text {
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-image: linear-gradient(310deg, rgb(121, 40, 202), rgb(255, 0, 128));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.the-team-text1 {
+  margin-bottom: 258px;
+}
+.the-team-image {
+  left: -74px;
+  width: 1214px;
+  bottom: -95px;
+  height: 520px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius40);
+}
+@media(max-width: 991px) {
+  .the-team-container1 {
+    background-size: auto;
+  }
+  .the-team-main {
+    justify-content: flex-start;
+  }
+  .the-team-container2 {
+    width: 70%;
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-tripleunit);
+    margin-bottom: 0px;
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 767px) {
+  .the-team-container2 {
+    width: 100%;
+  }
+}

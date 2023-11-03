@@ -1,0 +1,14 @@
+.testimonial-card3-testimonial-card {
+  display: flex;
+  padding: 32px;
+  max-width: 1400px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media(max-width: 479px) {
+  .testimonial-card3-testimonial-card {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
